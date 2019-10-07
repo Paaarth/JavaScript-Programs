@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="toUpperCase()">Click Here for Convert String to Uppercase</button>
+    <p id="toUpperCase"></p>
+
+    <button onclick="toLowerCase()">Click Here for Convert String to lowercase</button>
+    <p id="toLowerCase"></p>
+
+    <script>
+
+        function toUpperCase() {
+            var str = "Hello Coder!";
+            var res = str.toUpperCase();
+            document.getElementById("toUpperCase").innerHTML = res;
+        }
+
+        function toLowerCase() {
+            var str = "Hello Coder!";
+            var res = str.toLowerCase();
+            document.getElementById("toLowerCase").innerHTML = res;
+        }
+    </script>
+</body>
+
+</html>
